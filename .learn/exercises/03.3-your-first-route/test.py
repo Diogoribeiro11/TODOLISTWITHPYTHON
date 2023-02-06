@@ -54,5 +54,3 @@ def test_hello_function(client):
 def test_hello_function(client):
     response = client.get('/todos')
     assert b'<h1>Hello!</h1>' == response.data
-
-    
